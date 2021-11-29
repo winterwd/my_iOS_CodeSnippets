@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>print_object_property</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)printProperty:(NSObject *)obj {
+    unsigned  int count = 0;
+    Ivar *members = class_copyIvarList([obj class], &amp;count);
+    
+    for (int i = 0; i &lt; count; i++) {
+        Ivar var = members[i];
+        const char *memberName = ivar_getName(var);
+        const char *memberType = ivar_getTypeEncoding(var);
+        NSLog(@"type = %s; \n name = %s", memberType, memberName);
+        if ([[NSString stringWithFormat:@"%s",memberName] isEqualToString:@"_view"] ) {
+            NSObject *objc = [obj valueForKeyPath:[NSString stringWithFormat:@"%s",memberName]];
+            [self printProperty:objc];
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1B343D74-C0FF-46F4-8AC4-262C5DF53F5C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>print_object_property</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>print_object_property</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
