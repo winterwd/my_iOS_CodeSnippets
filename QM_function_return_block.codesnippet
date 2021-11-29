@@ -9,7 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#returnType#&gt; (^)(&lt;#parameterTypes#&gt;))&lt;#method name#&gt; {
+	<string>- (&lt;#returnType#&gt; (^)(&lt;#parameterTypes#&gt;))&lt;#method name#&gt;
+{
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -18,6 +19,8 @@
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建一个返回值为block类型的方法</string>
 	<key>IDECodeSnippetUserSnippet</key>

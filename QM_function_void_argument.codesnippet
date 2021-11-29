@@ -9,13 +9,16 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)&lt;#method name#&gt;:(&lt;#argv type#&gt;)&lt;#argv#&gt; {
+	<string>- (void)&lt;#method name#&gt;:(&lt;#argv type#&gt;)&lt;#argv#&gt;
+{
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>36A99A40-AF77-4CCA-8FF3-E1587F48F239</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建一个返回值为空并且带参数的方法</string>
 	<key>IDECodeSnippetUserSnippet</key>

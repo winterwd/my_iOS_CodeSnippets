@@ -9,7 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)handleLongPressGestureRecognizer:(UILongPressGestureRecognizer *)gestureRecognizer {
+	<string>- (void)handleLongPressGestureRecognizer:(UILongPressGestureRecognizer *)gestureRecognizer
+{
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -18,6 +19,8 @@
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建longPress手势事件回调</string>
 	<key>IDECodeSnippetUserSnippet</key>

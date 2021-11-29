@@ -9,13 +9,16 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)&lt;#method name#&gt; {
+	<string>- (void)&lt;#method name#&gt;
+{
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6B47EC5A-B22B-4155-8C3F-632CCDFC4502</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>创建一个返回值为空的方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
