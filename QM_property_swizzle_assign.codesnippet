@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>propertySwizzleAssign</string>
+	<string>@propertySwizzleAssign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -21,6 +21,8 @@
 	<string>83D77BF6-443B-4513-A2C3-DAE9263D6995</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>用swizzle方式创建assign类型的property的getter/setter</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -14,6 +14,8 @@
 	<string>A4384427-2E28-4CBD-93EB-B9C7DE21404D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>CGRectGetHeight</string>
 	<key>IDECodeSnippetUserSnippet</key>

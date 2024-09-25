@@ -14,8 +14,10 @@
 	<string>32E2254E-F2F6-419B-B581-B6885C95A62B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Assign And Readonly</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Assign And Readonly</string>
+	<string>Objective-C @property Assign And Readonly</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -16,6 +16,8 @@
 	<string>A403E0E0-2CE2-4A82-B921-BEE3F46DB93C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>作为局部变量的block定义</string>
 	<key>IDECodeSnippetUserSnippet</key>

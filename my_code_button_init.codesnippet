@@ -11,8 +11,9 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     
-    [button setImage:&lt;#(nullable UIImage *)#&gt; forState:UIControlStateNormal];
-    [button setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
+    UIImage *image = [UIImage imageNamed:@"&lt;#(nonnull NSString *)#&gt;"];
+    [button setImage:image forState:UIControlStateNormal];
+    [button setTitle:@"&lt;#(nonnull NSString *)#&gt;" forState:UIControlStateNormal];
     
     button.tag = &lt;#tag#&gt;;
     [button addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>

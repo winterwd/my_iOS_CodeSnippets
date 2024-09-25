@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>propertySwizzleWeak</string>
+	<string>@propertySwizzleWeak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -21,6 +21,8 @@
 	<string>B696ADA0-4026-4954-A454-8B7B2FCE40BF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>用swizzle方式创建weak类型的property的getter/setter</string>
 	<key>IDECodeSnippetUserSnippet</key>

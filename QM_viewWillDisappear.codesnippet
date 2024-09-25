@@ -11,12 +11,16 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
+    NSLog(@"%@ viewWillDisappear", NSStringFromClass(self.class));
+    
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E351FBA5-DDEF-4EC3-970E-8EA7F6CCF579</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>viewWillDisappear:</string>
 	<key>IDECodeSnippetUserSnippet</key>

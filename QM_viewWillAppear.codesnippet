@@ -11,12 +11,16 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    NSLog(@"%@ viewWillAppear", NSStringFromClass(self.class));
+    
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F9DAF84E-4DCA-4AEB-B90D-16B40624932B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>viewWillAppear:</string>
 	<key>IDECodeSnippetUserSnippet</key>

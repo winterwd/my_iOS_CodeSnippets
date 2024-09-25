@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>timeConsuming</string>
+	<string>@timeConsuming</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -18,6 +18,8 @@ NSLog(@"耗时：%@", @(consumingTime));</string>
 	<string>F03D957F-693E-464B-B5EE-579E045B81C1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>耗时计算</string>
 	<key>IDECodeSnippetUserSnippet</key>
